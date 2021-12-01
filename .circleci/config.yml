@@ -37,7 +37,7 @@ jobs:
       - run:
           name: Output scan URL
           command: |
-            printf "Scan was started with ID https://nexploit.app/scans/${SCAN_ID}"
+            printf "Scan was started with ID https://app.neuralegion.com/scans/${SCAN_ID}"
       - run:
           name: Wait for issues ⏳
           command: |
